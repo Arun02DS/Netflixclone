@@ -1,34 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
+body {
     background-color: black;
 }
 
-.main{
+.main {
     background-image: url("assests/images/background_1.jpg");
     height: 110vh;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1200px,100vw);
+    background-size: max(1200px, 100vw);
 }
 
-.main .box{
+.main .box {
     width: 100%;
     height: 110vh;
-    opacity: 0.44;
+    opacity: 0.74;
     position: absolute;
     top: 0;
     background-color: black;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     max-width: 80vw;
@@ -38,19 +38,19 @@ nav{
 
 }
 
-nav img{
+nav img {
     color: red;
     width: 140px;
     position: relative;
     z-index: 1;
 }
 
-nav button{
+nav button {
     position: relative;
     z-index: 1;
 }
 
-.textelement{
+.textelement {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,25 +58,77 @@ nav button{
     flex-direction: column;
     color: white;
     position: relative;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     gap: 24px;
     padding: 0 30px;
 }
 
-.textelement> :nth-child(1){
+.textelement> :nth-child(1) {
     font-weight: 900;
     font-size: 48px;
     text-align: center;
 }
 
-.textelement> :nth-child(2){
+.textelement> :nth-child(2) {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
 }
 
-.textelement> :nth-child(3){
+.textelement> :nth-child(3) {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(56, 56, 56);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.3);
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.white {
+    border: 2px solid white;
+    padding: 6px 30px 6px 10px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    border: none;
+
+}
+
+.main input {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0);
+    padding: 8px 221px 8px 18px;
+    border: 1px solid rgba(196, 191, 191, 0.3);
+    background-color: rgba(23, 23, 23, 0.3);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    padding: 8px 24px;
+    font-size: 24px;
+    border: none;
 }
